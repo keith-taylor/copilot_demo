@@ -1,6 +1,6 @@
 # GitHub Copilot introduction from Real Python
 
- Intro.
+Code from following a [Real Python](https://realpython.com/github-copilot-python/) tutorial.
 
 #### Installation
 
