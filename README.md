@@ -1,10 +1,12 @@
-# repo_name
+# GitHub Copilot introduction from Real Python
 
  Intro.
 
 #### Installation
 
-Clone from: `git@github.com:keith-taylor/<INSERT_REPO_NAME>.git`
+Clone from: `git@github.com:keith-taylor/copilot_demo.git`
+
+![](/home/keith/code/copilot_demo/img/copilot_demo_title_image.png)
 
 #### Contact
 
