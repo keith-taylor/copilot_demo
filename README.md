@@ -6,7 +6,7 @@ Code from following a [Real Python](https://realpython.com/github-copilot-python
 
 Clone from: `git@github.com:keith-taylor/copilot_demo.git`
 
-![](/home/keith/code/copilot_demo/img/copilot_demo_title_image.png)
+![](/img/copilot_demo_title_image.png)
 
 #### Contact
 
