@@ -2,7 +2,7 @@ name: Prompt Inactive Issues
 
 on:
   schedule:
-    - cron: '0 5 * * 2'  # Runs every Monday at 5:00 AM
+    - cron: '0 5 * * 2'  # Runs every xxxday at 5:00 AM
 
 jobs:
   check-inactive-issues:
@@ -16,8 +16,8 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const oneWeekAgo = new Date();
-            oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+            const someTimeAgo = new Date();
+            someTimeAgo.setDate(oneWeekAgo.getDate() - 0.5);
 
             const { data: issues } = await github.rest.issues.listForRepo({
               ...context.repo,
