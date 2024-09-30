@@ -26,7 +26,7 @@ jobs:
             });
 
             for (const issue of issues) {
-              if (new Date(issue.updated_at) < oneWeekAgo) {
+              if (new Date(issue.updated_at) < someTimeAgo) {
                 const assignee = issue.assignee.login;
                 const message = `Hi @${assignee}, we noticed that there's been no activity on "${issue.title}" in the last week or so. Are you still working on this? Please let us know if you want us to re-assign this task. Thank you for your contributions as always.`;
 
